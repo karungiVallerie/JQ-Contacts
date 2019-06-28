@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contacts information</title>
+        <meta charset="UTF-8"><!--charset(is an attribute that tells the browser that character and encoding is utf=8-->
+        <meta name ="viewport" content="width=device-width,intial-scale=1">
+        <meta http-equiv="x_UA-compatible"content="ie edge">
+        <link rel="stylesheet" type="text/css" href="doc.css"> 
+        
+        <script type="text/javascript" src="JS/jquery-3.4.1.js"></script>
+    </head>
+    <body>
+
+        <div id = "test">
+       <strong><h1>CONTACTS INFORMATION</h1></strong><br></div>
+            </div>
+            
+       <br>
+            <hr>
+<div id="container">
+        <img src="/home/karungi/Desktop/week 3 outbox/-Week-3-Project/contact.jpeg",align ="left"/>
+        <form>
+            <h1>Add contact</h1>
+            
+            <div id="one">
+            first_name:<br>
+            <input type="text" name="first_name"><br>
+            <br>
+            </div>
+
+
+            <div id="two">
+            second_name:<br>
+            <input type="text" name="second_name" ><br>
+        
+            <br>
+            </div>
+
+
+            <div id ="three">
+            phone_number:<br>
+            <input type="text" name="phone_number"><br>
+            <br>
+            </div>
+
+            <div id ="four">
+            email:<br>
+            <input type="text" name="email"><br>
+            <br>
+            </div>
+
+            <div id ="five">
+            address:<br>
+            <input type="text" name="address"><br>
+            <br>
+            </div>
+
+
+            
+            <input type="submit" onclick="saveContact(event)" value="submit">
+            
+          </form>
+          </div>
+
+          
+         <h1><div><label for="search">Search any contact:<!--it provides a usability improvement for mouse users, because if the user clicks on the text within the <label> element, it toggles the control.-->
+              <br></label></div></h1>
+
+              <br>
+
+            <input type="search" id="search" name="text">
+
+                <button onclick="searchContacts(event)" name="search">Search</button>
+
+            <div id="result"></div>
+        </form>
+
+    </body>
+</html
